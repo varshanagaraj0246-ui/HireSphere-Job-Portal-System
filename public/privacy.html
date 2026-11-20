@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Privacy Notice | HireSphere</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body{min-height:100vh;padding:32px 18px;background:var(--bg,#f5f6fb);color:var(--text,#202238)}
+    .privacy-page{max-width:850px;margin:35px auto;padding:clamp(22px,5vw,48px);background:var(--surface,#fff);border:1px solid var(--line,#e5e7ef);border-radius:22px}
+    .privacy-page h1{margin:8px 0 14px}.privacy-page h2{margin:28px 0 8px;font-size:18px}.privacy-page p,.privacy-page li{line-height:1.7;color:var(--muted,#666)}
+    .privacy-page a{color:var(--accent,#686de8)}
+  </style>
+</head>
+<body>
+  <main class="privacy-page">
+    <a href="/">← Back to HireSphere</a>
+    <p>HIRESPHERE · PRIVACY</p>
+    <h1>Privacy Notice</h1>
+    <p><strong>Project status:</strong> HireSphere is an academic demonstration project. Do not submit real identity documents, financial information, government ID numbers, passwords used on other websites, or other highly sensitive information.</p>
+    <h2>Information the demo collects</h2>
+    <p>When you create an account, HireSphere stores your name, email address, password hash, account role and the time you accepted this notice. If you complete a profile, it may also store the phone number, location, professional headline, experience, biography or company details you enter. If you apply for a job, it stores the application and any cover letter or resume you choose to submit. Employers can see the name, email address and application details you provide when you apply to their jobs.</p>
+    <h2>How information is used</h2>
+    <p>Information is used to provide account access, job search, applications, employer review, interview scheduling and administrative functions in this demonstration. Passwords are stored as password hashes, not as readable passwords.</p>
+    <h2>Resume access</h2>
+    <p>Resume files are stored outside the public website folder. A candidate can download their own resume. An employer can download a resume only for an application to a job owned by that employer. Administrators with server or database access may still be able to access stored data.</p>
+    <h2>Storage and sharing</h2>
+    <p>For a local college demonstration, account and job data are stored in the MySQL database configured by the project operator, and uploaded resumes are stored on the machine running the server. If the project is deployed, the hosting provider and server operator may process this information. Do not deploy this demo with real user data until a security review, access review, backup plan and retention policy are completed.</p>
+    <h2>Your choices</h2>
+    <p>Use test data for demonstrations. Ask the project administrator to correct or remove demo data. This version does not yet provide a self-service account deletion workflow or automatic data-retention schedule.</p>
+    <h2>Security limitations</h2>
+    <p>The project includes password hashing, short-lived HttpOnly session cookies, role checks, rate limits, same-origin checks, security headers and private resume downloads. These controls reduce common risks but do not guarantee security. The project has not undergone an independent penetration test, malware scanning of uploaded documents, legal compliance review or production infrastructure audit.</p>
+    <h2>Contact</h2>
+    <p>For this academic demo, contact the student/project administrator who operates the HireSphere instance.</p>
+  </main>
+</body>
+</html>

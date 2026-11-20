@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HireSphere connects ambitious talent with great opportunities.">
+  <title>HireSphere — Find work that moves you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-entry="gate">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#" data-view="home"><span class="brand-mark">H</span><span>hire<span class="brand-accent">sphere</span></span></a>
+    <nav class="nav-links">
+      <a href="#jobs" data-view="jobs">Find jobs</a>
+      <a href="#" id="workspaceNav">Choose workspace</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">☾</button>
+      <button class="btn btn-ghost hidden" id="returnDashboard">Dashboard</button><button class="btn btn-ghost" data-open="login">Log in</button>
+      <button class="btn btn-primary" data-open="register">Get started <span>↗</span></button>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+
+  <section id="roleGate" class="role-gate">
+    <div class="gate-brand"><span class="brand-mark">H</span><span>hire<span class="brand-accent">sphere</span></span></div>
+    <div class="gate-content">
+      <div class="eyebrow"><span class="pulse-dot"></span> ONE PLATFORM. THREE PURPOSES.</div>
+      <h1>Welcome to a better way to <span class="gradient-text">move forward.</span></h1>
+      <p class="gate-subtitle">First, tell us how you plan to use HireSphere. We’ll take you to the right workspace with tools and guidance made for you.</p>
+      <div class="role-grid">
+        <button class="role-card candidate-role" data-role-choice="seeker">
+          <span class="role-icon">✦</span><span class="role-kicker">FIND YOUR NEXT MOVE</span><strong>I'm a Candidate / Applicant</strong><span class="role-description">I am looking for work. Build a profile, discover opportunities, apply and follow every application.</span><span class="role-action">Continue as Candidate <b>↗</b></span>
+        </button>
+        <button class="role-card employer-role" data-role-choice="employer">
+          <span class="role-icon">⌘</span><span class="role-kicker">BUILD YOUR TEAM</span><strong>I'm an Employer / Recruiter</strong><span class="role-description">I represent a company. Publish openings, review applicants and schedule interviews.</span><span class="role-action">Continue as Employer <b>↗</b></span>
+        </button>
+        <button class="role-card admin-role" data-role-choice="admin">
+          <span class="role-icon">◈</span><span class="role-kicker">PLATFORM OPERATIONS</span><strong>I'm an Administrator</strong><span class="role-description">I manage platform access, user accounts, job listings and recruitment reports.</span><span class="role-action">Administrator sign in <b>↗</b></span>
+        </button>
+      </div>
+      <div class="gate-footnote"><span>✧</span> Not sure? If you want to find a job, choose Candidate / Applicant. If you want to hire people, choose Employer / Recruiter. Your workspace will be tailored to that role.</div>
+    </div>
+    <div class="gate-bottom"><span>HireSphere · Thoughtful work. Meaningful connections.</span><span>Secure role-based access</span></div>
+  </section>
+
+  <section id="rolePortal" class="role-portal hidden"></section>
+
+  <main id="app" class="hidden">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> YOUR NEXT CHAPTER STARTS HERE</div>
+        <h1>Find work that<br><span class="gradient-text">moves you forward.</span></h1>
+        <p class="hero-sub">A better way to discover meaningful work, meet ambitious teams, and build a career on your terms.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-large" data-open="register">Explore opportunities <span>↗</span></button>
+          <a class="text-link" href="#how">See how it works <span>→</span></a>
+        </div>
+        <div class="social-proof">
+          <div class="avatar-stack"><span>AK</span><span>MR</span><span>JS</span><span>+</span></div>
+          <div><strong>Careers begin with a connection.</strong><small>Join job seekers and growing teams on HireSphere.</small></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-glow"></div>
+        <div class="floating-card card-top"><span class="mini-icon purple">✦</span><div><strong>Make your next move</strong><small>Opportunities matched to you</small></div><span class="sparkle">✧</span></div>
+        <div class="feature-card">
+          <div class="feature-card-head"><span class="tag tag-green">✦ New opportunity</span><span class="dots">•••</span></div>
+          <div class="company-row"><div class="company-logo logo-violet">N</div><div><strong>Product Designer</strong><small>Northstar Studio · Bengaluru</small></div></div>
+          <div class="feature-salary">₹8–12 LPA <span>Full-time</span></div>
+          <div class="skill-row"><span>Figma</span><span>UI/UX</span><span>Prototyping</span></div>
+          <div class="match-row"><div class="match-ring">92<small>%</small></div><div><strong>Great potential match</strong><small>Your skills align with this role</small></div></div>
+          <button class="btn btn-primary full" data-open="register">Discover your match ↗</button>
+        </div>
+        <div class="floating-card card-bottom"><span class="mini-icon green">↗</span><div><strong>Your progress, visible.</strong><small>Track every application</small></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip section-wrap">
+      <span>ONE PLACE FOR YOUR NEXT OPPORTUNITY</span><div class="trust-items"><b>Discover</b><i>✦</i><b>Connect</b><i>✦</i><b>Grow</b><i>✦</i><b>Thrive</b></div>
+    </section>
+
+    <section class="section-wrap jobs-section" id="jobs">
+      <div class="section-heading"><div><div class="eyebrow">CURATED OPPORTUNITIES</div><h2>Find a role that <span class="gradient-text">fits your future.</span></h2><p>Explore opportunities from teams looking for their next great teammate.</p></div><a href="#jobs" class="text-link" id="viewAllJobs">View all jobs →</a></div>
+      <div class="search-panel">
+        <label class="search-field"><span>⌕</span><input id="searchQuery" placeholder="Job title, skill or company"></label>
+        <label class="search-field"><span>⌖</span><input id="searchLocation" placeholder="City or remote"></label>
+        <select id="searchMode"><option value="">Any workplace</option><option>Remote</option><option>Hybrid</option><option>On-site</option></select>
+        <button class="btn btn-primary" id="searchBtn">Search jobs</button>
+      </div>
+      <div class="filter-row"><span class="filter-label">Popular searches</span><button class="chip" data-search="Frontend Developer">Frontend Developer</button><button class="chip" data-search="Data Analyst">Data Analyst</button><button class="chip" data-search="UI Designer">UI Designer</button><button class="chip" data-search="Internship">Internships</button></div>
+      <div id="jobGrid" class="job-grid"><div class="empty-state">Loading opportunities…</div></div>
+    </section>
+
+    <section class="how-section" id="how"><div class="section-wrap">
+      <div class="section-heading centered"><div class="eyebrow">A SIMPLER WAY FORWARD</div><h2>Your next opportunity is <span class="gradient-text">closer than you think.</span></h2><p>Three simple steps to turn your ambition into action.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><div class="step-number">01</div><div class="step-icon">✧</div><h3>Create your profile</h3><p>Showcase your experience, education and skills so the right teams can discover you.</p></article>
+        <article class="step-card featured-step"><div class="step-number">02</div><div class="step-icon">⌕</div><h3>Discover possibilities</h3><p>Explore relevant roles, compare opportunities and find work that matches your goals.</p></article>
+        <article class="step-card"><div class="step-number">03</div><div class="step-icon">↗</div><h3>Make your move</h3><p>Apply with confidence and follow your journey from application to interview.</p></article>
+      </div>
+    </div></section>
+
+    <section class="employer-cta section-wrap" id="employers"><div><div class="eyebrow">FOR TEAMS THAT ARE GROWING</div><h2>Meet the people who<br><span class="gradient-text">move your mission.</span></h2><p>Post opportunities, manage applicants and bring the right people into your team.</p><button class="btn btn-light" data-open="register" data-role="employer">Build your team ↗</button></div><div class="cta-art"><div class="cta-circle">H<span>+</span></div><div class="cta-pill pill-one">Talent, meet opportunity</div><div class="cta-pill pill-two">Better connections ✦</div></div></section>
+  </main>
+
+  <section id="dashboard" class="dashboard-shell hidden"></section>
+
+  <footer class="footer"><div class="section-wrap footer-inner"><a class="brand" href="#"><span class="brand-mark">H</span><span>hire<span class="brand-accent">sphere</span></span></a><span>Thoughtful work. Meaningful connections.</span><span>© <span id="year"></span> HireSphere</span></div></footer>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-brand"><span class="brand-mark">H</span></div>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
